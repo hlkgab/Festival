@@ -11,26 +11,25 @@
 </head>
 <body class="basePage">
 
-<!--  Tableau contenant le titre -->
-<table width="100%" cellpadding="0" cellspacing="0">
-   <tr> 
-      <td class="titre">Festival Sp'Or <br>
+<!--  Barre de Navigation -->
+<div class="Navigation">
+   <div class="titre">Festival Sp'Or <br>
       <span id="texteNiveau2" class="texteNiveau2">
-      H&eacute;bergement des participants</span><br>&nbsp;
-      </td>
-   </tr>
-</table>
+      H&eacute;bergement des participants
+   </div>
+   <!--  Tableau contenant les menus -->
+   <div>
+      <ol>
+         <li class="menu"><a href="index.php">Accueil</a></li>
+         <li class="menu"><a href="listeEtablissements.php">
+         Gestion établissements</a></li>
+         <li class="menu"><a href="consultationAttributions.php">
+         Attributions chambres</a></li>
+      </ol>
+   </div>
+   <br>
+</div>
 
-<!--  Tableau contenant les menus -->
-<table width="80%" cellpadding="0" cellspacing="0" class="tabMenu" align="center">
-   <tr>
-      <td class="menu"><a href="index.php">Accueil</a></td>
-      <td class="menu"><a href="listeEtablissements.php">
-      Gestion établissements</a></td>
-      <td class="menu"><a href="consultationAttributions.php">
-      Attributions chambres</a></td>
-   </tr>
-</table>
-<br>
+
 
 
