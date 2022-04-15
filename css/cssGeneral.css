@@ -37,7 +37,7 @@ gras et en italique) */
 }
 
 /* Style pour le texte dans les différentes balises citées */
-td,tr 
+td,tr,ol,li 
 {
    font:11px Arial, Helvetica, sans-serif;
 }
@@ -163,5 +163,15 @@ td.reserve
 {
    background-color:#FFBEFF;
    color:#023047;
+}
+
+/* CSS de la barre de navigation */
+
+.Navigation{
+   border-width: 0px 0px 1px 0px;
+   padding: 10px;
+   margin: 0px;
+   
+   width: 100%;
 }
 
